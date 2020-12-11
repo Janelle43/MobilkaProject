@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F59A73525824A8500E3591F /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F59A73425824A8500E3591F /* TodoViewController.swift */; };
+		9F59A73725824B9900E3591F /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F59A73625824B9900E3591F /* InputViewController.swift */; };
+		9F59A73925836B5100E3591F /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F59A73825836B5100E3591F /* PhotosViewController.swift */; };
+		9FB303A52538810A00CA4630 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB303A42538810A00CA4630 /* AppDelegate.swift */; };
+		9FB303A72538810A00CA4630 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB303A62538810A00CA4630 /* SceneDelegate.swift */; };
+		9FB303A92538810A00CA4630 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB303A82538810A00CA4630 /* ViewController.swift */; };
+		9FB303AC2538810A00CA4630 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB303AA2538810A00CA4630 /* Main.storyboard */; };
+		9FB303AE2538810C00CA4630 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FB303AD2538810C00CA4630 /* Assets.xcassets */; };
+		9FB303B12538810C00CA4630 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB303AF2538810C00CA4630 /* LaunchScreen.storyboard */; };
+		9FB303B925399AEA00CA4630 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB303B825399AEA00CA4630 /* SearchResponse.swift */; };
+		9FB303BB253AEA5400CA4630 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB303BA253AEA5400CA4630 /* NetworkService.swift */; };
+		9FB3040B253C7F2B00CA4630 /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB3040A253C7F2B00CA4630 /* AlbumsViewController.swift */; };
+		EDDD6F42AB395BEF3E4E870B /* Pods_MobilkaProjectZhanelya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 024BE99D297FF681D83CC8A8 /* Pods_MobilkaProjectZhanelya.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		024BE99D297FF681D83CC8A8 /* Pods_MobilkaProjectZhanelya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobilkaProjectZhanelya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59A56B81912D2D4790950531 /* Pods-MobilkaProjectZhanelya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilkaProjectZhanelya.debug.xcconfig"; path = "Target Support Files/Pods-MobilkaProjectZhanelya/Pods-MobilkaProjectZhanelya.debug.xcconfig"; sourceTree = "<group>"; };
+		9F59A73425824A8500E3591F /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
+		9F59A73625824B9900E3591F /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		9F59A73825836B5100E3591F /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		9FB303A12538810A00CA4630 /* MobilkaProjectZhanelya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobilkaProjectZhanelya.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FB303A42538810A00CA4630 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9FB303A62538810A00CA4630 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9FB303A82538810A00CA4630 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9FB303AB2538810A00CA4630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FB303AD2538810C00CA4630 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FB303B02538810C00CA4630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FB303B22538810C00CA4630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FB303B825399AEA00CA4630 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
+		9FB303BA253AEA5400CA4630 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		9FB3040A253C7F2B00CA4630 /* AlbumsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsViewController.swift; sourceTree = "<group>"; };
+		DE5CB6EB6AB7587AC858F177 /* Pods-MobilkaProjectZhanelya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilkaProjectZhanelya.release.xcconfig"; path = "Target Support Files/Pods-MobilkaProjectZhanelya/Pods-MobilkaProjectZhanelya.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FB3039E2538810A00CA4630 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDDD6F42AB395BEF3E4E870B /* Pods_MobilkaProjectZhanelya.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1101B2A6AD392FEC44F233FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				024BE99D297FF681D83CC8A8 /* Pods_MobilkaProjectZhanelya.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1334308C426625E643FF505E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59A56B81912D2D4790950531 /* Pods-MobilkaProjectZhanelya.debug.xcconfig */,
+				DE5CB6EB6AB7587AC858F177 /* Pods-MobilkaProjectZhanelya.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9FB303982538810A00CA4630 = {
+			isa = PBXGroup;
+			children = (
+				9FB303A32538810A00CA4630 /* MobilkaProjectZhanelya */,
+				9FB303A22538810A00CA4630 /* Products */,
+				1334308C426625E643FF505E /* Pods */,
+				1101B2A6AD392FEC44F233FB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9FB303A22538810A00CA4630 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FB303A12538810A00CA4630 /* MobilkaProjectZhanelya.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FB303A32538810A00CA4630 /* MobilkaProjectZhanelya */ = {
+			isa = PBXGroup;
+			children = (
+				9FB303A42538810A00CA4630 /* AppDelegate.swift */,
+				9FB303A62538810A00CA4630 /* SceneDelegate.swift */,
+				9FB303A82538810A00CA4630 /* ViewController.swift */,
+				9FB303BA253AEA5400CA4630 /* NetworkService.swift */,
+				9FB303AA2538810A00CA4630 /* Main.storyboard */,
+				9FB303AD2538810C00CA4630 /* Assets.xcassets */,
+				9FB303AF2538810C00CA4630 /* LaunchScreen.storyboard */,
+				9FB303B22538810C00CA4630 /* Info.plist */,
+				9FB303B825399AEA00CA4630 /* SearchResponse.swift */,
+				9FB3040A253C7F2B00CA4630 /* AlbumsViewController.swift */,
+				9F59A73425824A8500E3591F /* TodoViewController.swift */,
+				9F59A73625824B9900E3591F /* InputViewController.swift */,
+				9F59A73825836B5100E3591F /* PhotosViewController.swift */,
+			);
+			path = MobilkaProjectZhanelya;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FB303A02538810A00CA4630 /* MobilkaProjectZhanelya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FB303B52538810C00CA4630 /* Build configuration list for PBXNativeTarget "MobilkaProjectZhanelya" */;
+			buildPhases = (
+				04BCDAC9C524EC26B125AB6C /* [CP] Check Pods Manifest.lock */,
+				9FB3039D2538810A00CA4630 /* Sources */,
+				9FB3039E2538810A00CA4630 /* Frameworks */,
+				9FB3039F2538810A00CA4630 /* Resources */,
+				37A5D5A6BA9B0B336650513C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobilkaProjectZhanelya;
+			productName = MobilkaProjectZhanelya;
+			productReference = 9FB303A12538810A00CA4630 /* MobilkaProjectZhanelya.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FB303992538810A00CA4630 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Zhanelya Irmakhamed";
+				TargetAttributes = {
+					9FB303A02538810A00CA4630 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 9FB3039C2538810A00CA4630 /* Build configuration list for PBXProject "MobilkaProjectZhanelya" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FB303982538810A00CA4630;
+			productRefGroup = 9FB303A22538810A00CA4630 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FB303A02538810A00CA4630 /* MobilkaProjectZhanelya */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FB3039F2538810A00CA4630 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FB303B12538810C00CA4630 /* LaunchScreen.storyboard in Resources */,
+				9FB303AE2538810C00CA4630 /* Assets.xcassets in Resources */,
+				9FB303AC2538810A00CA4630 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04BCDAC9C524EC26B125AB6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobilkaProjectZhanelya-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37A5D5A6BA9B0B336650513C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobilkaProjectZhanelya/Pods-MobilkaProjectZhanelya-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobilkaProjectZhanelya/Pods-MobilkaProjectZhanelya-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobilkaProjectZhanelya/Pods-MobilkaProjectZhanelya-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FB3039D2538810A00CA4630 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F59A73925836B5100E3591F /* PhotosViewController.swift in Sources */,
+				9FB303BB253AEA5400CA4630 /* NetworkService.swift in Sources */,
+				9FB303B925399AEA00CA4630 /* SearchResponse.swift in Sources */,
+				9F59A73525824A8500E3591F /* TodoViewController.swift in Sources */,
+				9F59A73725824B9900E3591F /* InputViewController.swift in Sources */,
+				9FB3040B253C7F2B00CA4630 /* AlbumsViewController.swift in Sources */,
+				9FB303A92538810A00CA4630 /* ViewController.swift in Sources */,
+				9FB303A52538810A00CA4630 /* AppDelegate.swift in Sources */,
+				9FB303A72538810A00CA4630 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9FB303AA2538810A00CA4630 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FB303AB2538810A00CA4630 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9FB303AF2538810C00CA4630 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FB303B02538810C00CA4630 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FB303B32538810C00CA4630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9FB303B42538810C00CA4630 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FB303B62538810C00CA4630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59A56B81912D2D4790950531 /* Pods-MobilkaProjectZhanelya.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MobilkaProjectZhanelya/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iitu.MobilkaProjectZhanelya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FB303B72538810C00CA4630 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE5CB6EB6AB7587AC858F177 /* Pods-MobilkaProjectZhanelya.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MobilkaProjectZhanelya/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iitu.MobilkaProjectZhanelya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FB3039C2538810A00CA4630 /* Build configuration list for PBXProject "MobilkaProjectZhanelya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FB303B32538810C00CA4630 /* Debug */,
+				9FB303B42538810C00CA4630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FB303B52538810C00CA4630 /* Build configuration list for PBXNativeTarget "MobilkaProjectZhanelya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FB303B62538810C00CA4630 /* Debug */,
+				9FB303B72538810C00CA4630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FB303992538810A00CA4630 /* Project object */;
+}
